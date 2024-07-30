@@ -3,7 +3,8 @@ import os, time
 
 def menu():
  print(Fore.WHITE+"[ "+Fore.RED+"1"+Fore.WHITE+" ] : IpLogger");
-
+ print(Fore.WHITE+"[ "+Fore.GREEN+"2"+Fore.WHITE+" ] : Phone Info");
+ choice_input = input(Fore.YELLOW+"Select Number :"+Fore.BLUE);
 def icon():
 	os.system("clear");
 	time.sleep(1);
@@ -37,7 +38,7 @@ def icon():
 	icon_img = """
          ██
          ██
-     ███████████
+     ██████████
          ██
          ██
          ██
