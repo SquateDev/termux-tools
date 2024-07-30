@@ -2,7 +2,7 @@ from colorama import Fore, Style
 import os, time
 
 def menu():
- print(Fore.WHITE+"[ "+Fore.RED+"1"+Fore.WHITE+" ] : IpLogger";
+ print(Fore.WHITE+"[ "+Fore.RED+"1"+Fore.WHITE+" ] : IpLogger");
 
 def icon():
 	os.system("clear");
