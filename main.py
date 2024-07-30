@@ -6,7 +6,7 @@ def menu():
  print(Fore.WHITE+"[ "+Fore.GREEN+"2"+Fore.WHITE+" ] : Phone Info");
  print(Fore.WHITE+"[ "+Fore.YELLOW+"3"+Fore.WHITE+" ] : IP-Location");
  print(Fore.WHITE+"[ "+Fore.BLUE+"4"+Fore.WHITE+" ] : CheckWeather");
- print(Fore.WHITE+"[ "+Fore.PURPLE+"5"+Fore.WHITE+" ] : Exit"):
+ print(Fore.WHITE+"[ "+Fore.PURPLE+"5"+Fore.WHITE+" ] : Exit");
  choice_input = input(Fore.YELLOW+"\nSelect Number : "+Fore.BLUE);
 def icon():
 	os.system("clear");
