@@ -1,5 +1,9 @@
 from colorama import Fore, Style
 import os, time
+
+def menu():
+ print(Fore.WHITE+"[ "+Fore.RED+"1"+Fore.WHITE+" ] : IpLogger";
+
 def icon():
 	os.system("clear");
 	time.sleep(1);
@@ -33,7 +37,7 @@ def icon():
 	icon_img = """
          ██
          ██
-     ████████
+     ███████████
          ██
          ██
          ██
@@ -41,5 +45,6 @@ def icon():
          ██
 	""";
 	print(Fore.RED+icon_img);
+	menu();
 
 icon();
